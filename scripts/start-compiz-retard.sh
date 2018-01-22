@@ -1,0 +1,11 @@
+sleep 10
+terminology &
+sleep 10
+~/info/Wallpaper_Manager_Desktop/desWall.sh &
+export $(dbus-launch)
+#cd ~/.config/conky/conky-metro-master
+#./conky.sh &
+sleep 20
+/usr/bin/kwalletd5 &
+sleep 5
+korgac &
